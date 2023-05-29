@@ -6,3 +6,6 @@
 2. qt_ros2
    采用CMake管理模式，结合QT可视化交互页面和ROS2 RVIZ2对rocos_app及space模型进行可视化
 ## step3:QT+RVIZ+多机分布式通信
+
+## Contributor
+JinCheng Sun
