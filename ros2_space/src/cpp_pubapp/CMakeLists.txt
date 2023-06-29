@@ -37,7 +37,7 @@ joint_state_publisher
 install(DIRECTORY launch urdf meshes
   DESTINATION share/${PROJECT_NAME})
 
-file(GLOB_RECURSE CONFIG_FILE config/*.urdf config/public.key config/license)
+# file(GLOB_RECURSE CONFIG_FILE config/*.urdf config/public.key config/license)
 # file(COPY ${CONFIG_FILE} DESTINATION ${CMAKE_BINARY_DIR}/bin)
 
 ament_package()

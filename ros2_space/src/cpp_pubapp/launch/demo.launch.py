@@ -14,13 +14,17 @@ from launch_ros.parameter_descriptions import Parameter
 def generate_launch_description():
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
-    urdf_file_name = 'urdf/robot.urdf'
-
+    urdf_file_name = 'urdf/gjb_urdf2.urdf'
+    rviz_file_name = 'urdf/space.rviz'
     print("urdf_file_name : {}".format(urdf_file_name))
-
+    config_file = os.path.join(
+        get_package_share_directory('cpp_pubapp'), rviz_file_name
+    )
     urdf = os.path.join(
         get_package_share_directory('cpp_pubapp'),
         urdf_file_name)
+   
+
 
     return LaunchDescription([
         DeclareLaunchArgument(
@@ -50,5 +54,7 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz2',
             output='screen',
+            parameters=[{'use_sim_time': use_sim_time}],
+            arguments=['-d', config_file],
           ),
     ])
