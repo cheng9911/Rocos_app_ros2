@@ -37,7 +37,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>4545</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="joint1">
@@ -50,7 +50,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>4545</string>
+     <string>1.5707</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="joint3">
@@ -63,7 +63,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>4545</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="joint2">
@@ -76,7 +76,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>4545</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="joint5">
@@ -89,7 +89,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>4545</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="joint4">
@@ -102,7 +102,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>4545</string>
+     <string>0</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="joint6">
@@ -115,7 +115,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>4545</string>
+     <string>0</string>
     </property>
    </widget>
   </widget>

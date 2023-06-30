@@ -56,11 +56,11 @@ void MainWindow::on_pushButton_clicked()
     
     auto node = rclcpp::Node::make_shared("joint_state_publisher");
     rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr publisher;
-    publisher = node->create_publisher<sensor_msgs::msg::JointState>("joint_states", 1);
+    publisher = node->create_publisher<sensor_msgs::msg::JointState>("joint_states_command", 1);
 
-    rclcpp::WallRate loop_rate(2); // 1 Hz publishing rate
+    rclcpp::WallRate loop_rate(6); // 1 Hz publishing rate
 
-    for(int i=0 ; i<1;i++)
+    for(int i=0 ; i<3;i++)
     {
       auto joint_state_ = sensor_msgs::msg::JointState();
 
