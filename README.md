@@ -1,6 +1,6 @@
 # Rocos_app_ros2
 !!! 下述所有代码基于ROCOS开发，需正确配置ROCOS
-<img src="https://github.com/cheng9911/Rocos_app_ros2/blob/main/images/2.gif" alt="show" />
+<img src="https://github.com/rocos-sia/Rocos_app_ros2/blob/main/images/2.gif" alt="show" />
 ## 开发步骤
 ### step1:利用ros2发布app仿真模式下的关节值到Rviz中显示 
 1. ros2_space
